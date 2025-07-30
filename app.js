@@ -34,6 +34,13 @@ var freeMemory = os.freemem() // Getting the free amount memory in the system
 var totalMemory = os.totalmem(); // Getting the total amount memory in the system
 console.log(freeMemory);
 console.log(totalMemory)
+const ospath = require('ospath')
+console.log(ospath.home());
+
+
+// Install external modules using npm
+// npm i <modue-name>
+// For example, to install the express module, use the command: npm i express
 
 
 var http = require('http'); // Importing the http module
