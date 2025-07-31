@@ -16,6 +16,13 @@
 // var module = require("node:module");
 // console.log(module);
 
+//import logger module
+const loggerFunction = require('./logger'); // Importing the logger module
+// ./ : current directory
+// ../ : parent directory
+// / : root directory
+loggerFunction('Hello, this is a logger message'); // Calling the logger function from the imported module
+
 //var, let, const are used to define variables of node modules.
 
 //What are built in modules in Node?
